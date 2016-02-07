@@ -76,4 +76,4 @@ Telemetry data, local gps status, battery monitoring and other usefull informati
 
 These STM32 microprocessor series based boards incorporate 2 UARTS (serial ports 0 and 1). This firmware provides the way to activate 2 extra virtual ports (softserial) which can be used for different purposes. They can be assigned dynamically for the different functions the antenna tracker can perform.
 
-[See more information about this proyect](https://github.com/raul-ortega/amv-open360tracker/tree/master/32bits)
+[See more information about this proyect](https://github.com/raul-ortega/amv-open360tracker-32bits/wiki)
