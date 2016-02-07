@@ -98,7 +98,7 @@ Este CLI está inspirado en el CLI basefilght y cleanflight para Naze32, si est�
 
 - Si eres usuario de la versión de 8 bits, y vas a probar esta versión de 32bits, **ten a mano los valores de los parámetros de configuración del config.h.**, pues vamos a esos mismos valores.
 
-![Flip32](https://github.com/raul-ortega/amv-open360tracker/blob/master/32bits/Flip32-montaje.png)
+![Flip32](https://github.com/raul-ortega/amv-open360tracker-32bits/blob/master/Flip32-montaje.png)
 
 **Parámetros de configuración**
 
