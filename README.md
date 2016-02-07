@@ -10,14 +10,15 @@ This firmware has been developed for controllers based on STM32F series micropro
 
 # Features
 
-* 360 degrees continous rotation.
-* Multiprotocol.
-* Protocol conversion and relay.
-* Command line interface for configuration.
-* Tilt easing.
-* Automatic home position.
-* Detailled status data on OLED display.
-* Acurate PID control system.
+* 360 degrees continous rotation
+* Multiprotocol
+* Protocol conversion and fordwarding
+* Command line interface for configuration
+* Tilt easing
+* Automatic home position
+* Detailled status data on OLED display
+* Acurate PID control system
+* 4 Serial ports, with dynamic assignment.
 
 **360 DEGREE CONTINOUS ROTATION**
 
@@ -69,3 +70,8 @@ You can connect a NMEA or UBLOX GPS device to the controller to automatically se
 
 **OLED DISPLAY**
 
+Telemetry data, local gps status, battery monitoring and other usefull information, are displayed on an OLED display. In futures versions, the display will also be used to display data during settings.
+
+**4 SERIAL PORTS**
+
+STM32 microprocessor series based boards incorporate 2 UARTS (serial ports 0 and 1). This firmware provides the way to activate 2 extra virtual ports (softserial) which can be used for different purposes. They can be assigned dynamically for the different functions the antenna tracker can perform.
