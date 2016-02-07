@@ -4,7 +4,7 @@ This is the 32 bits versión of the "continuous 360 degree rotating antenna trac
 
 Please, we encourage you to read all the documentation before using this firmware in your devices, otherwhise they could be dammaged. In the wiki you'll find detailled information about how to install and configure it with success.
 
-## Hardware paltform
+## Hardware platform
 
 This firmware has been developed for controllers based on STM32F series microprocessors, which fit the technical specifications of the popular NAZE32 flight controller. By now, it has been tested on the **Flip32** flight controller which incorporates the magnetometer, but it could work on other NAZE32 based boards like with external magnetometer.
 
@@ -14,7 +14,10 @@ This firmware has been developed for controllers based on STM32F series micropro
 * Multiprotocol.
 * Protocol conversion and relay.
 * Command line interface for configuration.
-* Tilt easing
+* Tilt easing.
+* Automatic home position.
+* Detailled status data on OLED display.
+* Acurate PID control system.
 
 **360 DEGREE CONTINOUS ROTATION**
 
@@ -59,3 +62,10 @@ Yo can configure and interact with the antenna tracker through a Command Line In
 **TILT EASING**
 
 The tilt  movement has been improved by adding easing effects at the beginning and smoothing at the end. This will avoid damaging the tilt servo and other mechanisms when using heavy and larger antennas. This feature doesn't affect the accuracy and speed in the movements of the pan servo.
+
+**AUTOMATIC HOME POSITION**
+
+You can connect a NMEA or UBLOX GPS device to the controller to automatically set the home position before starting the tracking. Nonetheless, the user has full control and can reject the home position to get a more accurate one.
+
+**OLED DISPLAY**
+
