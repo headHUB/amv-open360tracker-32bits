@@ -468,7 +468,7 @@ Inicialmente estos son los parámetros a tener en cuenta para su correcto funcio
 
 Los protocolos GPS soportados son NMEA y UBLOX. Para más información sobre los modelos de GPS soportados, consulte la información reportada por los usuarios de nuestra comunidad: [http://www.aeromodelismovirtual.com/showthread.php?t=34530](http://www.aeromodelismovirtual.com/showthread.php?t=34530)
 
-** Configuración de del puerto serie 1 (UART2) para GPS Local
+**Configuración de del puerto serie 1 (UART2) para GPS Local**
 
 Desde la versión 1.12, es necesario ejecutar el siguiente comando en el modo cli para activar la función de gps local a través del puerto serie 1 (UART2)
 
