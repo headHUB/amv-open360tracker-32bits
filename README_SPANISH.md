@@ -529,8 +529,11 @@ serial
 que muestra la lista completa de puertos disponibles. Dos puertos virtuales son añadidos junto a los puertos serial 0 (urat1) y srial 1 (uart2). En nuestro ejemplo, la lista completa es:
 
 serial 0 1 9600 57600 0 115200
+
 serial 1 2 115200 9600 0 115200
+
 **serial 30 256 115200 57600 9600 115200**
+
 serial 31 0 115200 57600 0 115200
 
 El puerto serie 0 se asigna a la función 1 (telemetría de entrada) a 9600 baudios.
