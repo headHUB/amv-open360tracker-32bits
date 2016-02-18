@@ -20,6 +20,7 @@ This firmware has been developed for controllers based on STM32F series micropro
 * Acurate PID control system
 * 4 Serial ports, with dynamic assignment.
 
+
 **360 DEGREE CONTINOUS ROTATION**
 
 With this firmware you can move your antenna continually in a range of 360 degrees, without the need of moving back. Using an slipring and 360 degree servos, or normal servos modified to be able of doing it, the firware will give the orders for reaching the target in an acurate and fast way.
