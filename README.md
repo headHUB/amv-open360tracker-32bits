@@ -38,7 +38,6 @@ These are the protocols that are supported:
 - **FRSKY X (Smartport)**
 - **LTM (Light Telemetry)**
 
-El resto de protocolos soportados en la versión 8 bits están en fase de integración en esta nueva versión de 32bits.
 
 **PROTOCOL CONVERSION AND FORWARDING**
 
