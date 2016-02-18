@@ -53,7 +53,7 @@ With this firmware, you have the possibility to convert the input telemetry data
 
 Examples:
 
-* Your aircrafat sends mavlink frames to the antenna tracker, and it converts and send the GPS position and altitude to the app Droid Planner. 
+* Your aircrafat sends GPS direct telemetry frames to the antenna tracker, and it converts and send the GPS position and altitude to Droidplanner app. 
 * The received telemetry data is converted to MFD protocol to manage an MFD antenna tracker. 
 
 **COMMAND LINE INTERFACE**
