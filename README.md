@@ -20,6 +20,7 @@ This firmware has been developed for controllers based on STM32F series micropro
 * Acurate PID control system
 * 4 Serial ports, with dynamic assignment.
 
+
 **360 DEGREE CONTINOUS ROTATION**
 
 With this firmware you can move your antenna continually in a range of 360 degrees, without the need of moving back. Using an slipring and 360 degree servos, or normal servos modified to be able of doing it, the firware will give the orders for reaching the target in an acurate and fast way.
@@ -38,7 +39,6 @@ These are the protocols that are supported:
 - **FRSKY X (Smartport)**
 - **LTM (Light Telemetry)**
 
-El resto de protocolos soportados en la versión 8 bits están en fase de integración en esta nueva versión de 32bits.
 
 **PROTOCOL CONVERSION AND FORWARDING**
 
@@ -53,7 +53,7 @@ With this firmware, you have the possibility to convert the input telemetry data
 
 Examples:
 
-* Your aircrafat sends mavlink frames to the antenna tracker, and it converts and send the GPS position and altitude to the app Droid Planner. 
+* Your aircrafat sends GPS direct telemetry frames to the antenna tracker, and it converts and send the GPS position and altitude to Droidplanner app. 
 * The received telemetry data is converted to MFD protocol to manage an MFD antenna tracker. 
 
 **COMMAND LINE INTERFACE**
