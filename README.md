@@ -1,6 +1,6 @@
 # amv-open360tracker-32bits 
 
-This is the 32 bits versión of the "continuous 360 degree rotating antenna tracker system" for FPV. This proyect has been developed and maintained by users of the [FPV spanish community](http://www.aeromodelismovirtual.com/showthread.php?t=34530).
+This is the 32 bits versión of the "continuous 360 degree rotating antenna tracker system" for FPV. This project has been developed and maintained by users of the [FPV spanish community](http://www.aeromodelismovirtual.com/showthread.php?t=34530).
 
 Please, we encourage you to read all the documentation before using this firmware in your devices, otherwhise they could be dammaged. In the wiki you'll find detailled information about how to install and configure it with success.
 
@@ -76,4 +76,4 @@ Telemetry data, local gps status, battery monitoring and other usefull informati
 
 These STM32 microprocessor series based boards incorporate 2 UARTS (serial ports 0 and 1). This firmware provides the way to activate 2 extra virtual ports (softserial) which can be used for different purposes. They can be assigned dynamically for the different functions the antenna tracker can perform.
 
-[See more information about this proyect](https://github.com/raul-ortega/amv-open360tracker-32bits/wiki)
+[See more information about this project](https://github.com/raul-ortega/amv-open360tracker-32bits/wiki)
