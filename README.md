@@ -17,6 +17,7 @@ This firmware has been developed for controllers based on STM32F series micropro
 * Tilt easing
 * Automatic home position
 * Detailled status data on OLED display
+* Setup menu on OLED display
 * Acurate PID control system
 * 4 Serial ports, with dynamic assignment.
 
@@ -27,7 +28,7 @@ With this firmware you can move your antenna continually in a range of 360 degre
 
 **MULTIPROTOCOL**
 
-This firmware provides an **all in one anntena tracker controller system**, this means that it is able to work with several telemetry protocols without the the need of compiling and upload the firmware to the board each time you want to change from one to another.
+This firmware provides an **all in one antenna tracker controller system**, it is able to work with several telemetry protocols. When you are in the flying field, you only have to change the protocol and the baud rate through the setup menu on the display. Now you have one antenna tracker system for all your aircrafts.
 
 These are the protocols that are supported:
 
@@ -46,14 +47,12 @@ With this firmware, you have the possibility to convert the input telemetry data
 
 - **MAVLINK** 
 - **MFD**
-- **FRSKY D**
-- **FRSKY X (Smartport)**
-- **HOTT**
-- **LTM (Light Telemetry)**
+- **NMEA
 
 Examples:
 
-* Your aircrafat sends GPS direct telemetry frames to the antenna tracker, and it converts and send the GPS position and altitude to Droidplanner app. 
+* Your aircrafat sends GPS direct telemetry frames to the antenna tracker, and it converts and send mavlink packets to Mission Planner or Droidplanner app.
+* Your aircrafat sends GPS direct telemetry frames to the antenna tracker, and it converts and send NMEA GPGGA and GPRMC frames to Oruxmaps app.
 * The received telemetry data is converted to MFD protocol to manage an MFD antenna tracker. 
 
 **COMMAND LINE INTERFACE**
@@ -70,7 +69,9 @@ You can connect a NMEA or UBLOX GPS device to the controller to automatically se
 
 **OLED DISPLAY**
 
-Telemetry data, local gps status, battery monitoring and other usefull information, are displayed on an OLED display. In futures versions, the display will also be used to display data during settings.
+Telemetry data, local gps status, battery monitoring and other usefull information, are displayed on an OLED display.
+
+Now you can select the ingoing telemetry protocol and baud rate through the setup menu on the OLED display.
 
 **4 SERIAL PORTS**
 
