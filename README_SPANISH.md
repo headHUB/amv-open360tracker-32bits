@@ -42,7 +42,7 @@ Protocolos soportados:
 - **LTM (Light Telemetry)**
 
 
-**AMORTIGUACIÓN EN SERO TILT**
+**AMORTIGUACIÓN EN SERVO TILT**
 
 Se aplica efecto de amortiguación (configurable) para evitar daños en el servo tilt y otros mecanismos cuando se utiliza con antenas de grandes dimensiones. 
 
