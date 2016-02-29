@@ -6,9 +6,9 @@ Por favor, te rogamos que leas con atención toda la información que suministra
 
 Este firmware es software libre, puede ser descargado y utilizado de forma gratuita, y redistribuído, con una única restricción: cualquier versión del firmware debe ser distribuída en los mismos términos y condiciones de uso gratuíto y distribución. Los autores se resevan todos los demás derechos sobre este software. Se distrubuye tal cual es, úsalo bajo tu propio riesgo y responsabilidad.
 
-## Hardware platform
+## Plataforma hardware
 
-This firmware has been developed for controllers based on STM32F series microprocessors, which fit the technical specifications of the popular NAZE32 flight controller. By now, it has been tested on the **Flip32** flight controller which incorporates the magnetometer, but it could work on other NAZE32 based boards like with external magnetometer.
+Este firmware ha sido desarrollado para su utilización controladoras basadas microprocesadores de la serie STM32F, cuyas especificaciones técnicas encajan con la popular controladora de vuelo NAZE32 para drones. En la actualidad, este firmware ha sido testeado en las controladoras Flip32 y NAZE32, ambas con magnetómetro incorporado, pero podría ser utilizada en otras controladoras basadas en NAZE32 con magentómetro externo (aún no testado).
 
 # Características
 
@@ -66,4 +66,4 @@ Con la versión de 32 bits es posible configurar hasta 4 puertos serie (2 uart y
 
 Convierte la telemetría de entrada a diferentes formatos de telemetría de salida para conectar con aplicaciones externas: MAVLINK, NMEA, MFD. Podrás monitorizar el movimiento del aeromodelo con aplicaciones como Missión Planner, Oruxmaps, Droidplanner/Tower, etc...
 
-Encontrarás información detallada sobre la instalación y configuración del firmware en la [WIKI](https://github.com/raul-ortega/amv-open360tracker-32bits/wiki) del proyecto y en el [foro Aeromodelismo Virtual]
+Encontrarás información detallada sobre la instalación y configuración del firmware en la [WIKI](https://github.com/raul-ortega/amv-open360tracker-32bits/wiki).
