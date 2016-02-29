@@ -62,7 +62,7 @@ Muestra información detallada sobre el estado del seguimiento, estado del GPS l
 Con la versión de 32 bits es posible configurar hasta 4 puertos serie (2 uart y 2 virtuales), con asignación dinámica de funciones (por ejemplo para gestión del GPS local o reenvío de telemetría a aplicaciones externas).
 
 
-** COMUNICACIÓN CON APLICACIONES EXTERNAS**
+**COMUNICACIÓN CON APLICACIONES EXTERNAS**
 
 Convierte la telemetría de entrada a diferentes formatos de telemetría de salida para conectar con aplicaciones externas: MAVLINK, NMEA, MFD. Podrás monitorizar el movimiento del aeromodelo con aplicaciones como Missión Planner, Oruxmaps, Droidplanner/Tower, etc...
 
