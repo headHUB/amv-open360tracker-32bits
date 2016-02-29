@@ -47,7 +47,7 @@ With this firmware, you have the possibility to convert the input telemetry data
 
 - **MAVLINK** 
 - **MFD**
-- **NMEA
+- **NMEA**
 
 Examples:
 
