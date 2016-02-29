@@ -41,9 +41,11 @@ Protocolos soportados:
 - **FRSKY X (Smartport)**
 - **LTM (Light Telemetry)**
 
+
 **AMORTIGUACIÓN EN SERO TILT**
 
 Se aplica efecto de amortiguación (configurable) para evitar daños en el servo tilt y otros mecanismos cuando se utiliza con antenas de grandes dimensiones. 
+
 
 **POSICIÓN HOME AUTOMÁTICA**
 
@@ -54,16 +56,14 @@ Soporta dispositivos GPS UBLOX y NMEA para el establecimiento automático e la p
 
 Muestra información detallada sobre el estado del seguimiento, estado del GPS local (sólo 32 bits), monitorización de la batería, y menú de configuración (sólo 32 bits).
 
+
 **4 PUERTOS SERIE**
 
 Con la versión de 32 bits es posible configurar hasta 4 puertos serie (2 uart y 2 virtuales), con asignación dinámica de funciones (por ejemplo para gestión del GPS local o reenvío de telemetría a aplicaciones externas).
 
-** COMUNICACIÓN CON APLICACIONES EXTERNAS **
 
-Convierte la telemetría de entrada a diferentes formatos de telemetría de salida para conectar con aplicaciones externas: MAVLINK, NMEA, MFD.
+** COMUNICACIÓN CON APLICACIONES EXTERNAS**
 
-Podrás monitorizar el movimiento del aeromodelo con aplicaciones como Missión Planner, Oruxmaps, Droidplanner/Tower, etc...
+Convierte la telemetría de entrada a diferentes formatos de telemetría de salida para conectar con aplicaciones externas: MAVLINK, NMEA, MFD. Podrás monitorizar el movimiento del aeromodelo con aplicaciones como Missión Planner, Oruxmaps, Droidplanner/Tower, etc...
 
-Te invitamos a montarte tu antena tracker siguiendo nuestro proyecto y a participar para que nos cuentes tú experiencia.
-
-Más información detallada en la [WIKI](https://github.com/raul-ortega/amv-open360tracker-32bits/wiki) del proyecto y en el [foro Aeromodelismo Virtual](http://www.aeromodelismovirtual.com/showthread.php?t=34530).
+Encontrarás información detallada sobre la instalación y configuración del firmware en la [WIKI](https://github.com/raul-ortega/amv-open360tracker-32bits/wiki) del proyecto y en el [foro Aeromodelismo Virtual]
