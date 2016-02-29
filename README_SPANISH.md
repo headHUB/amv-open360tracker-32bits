@@ -1,6 +1,6 @@
 # amv-open360tracker 32bits 
 
-Ésta es la versión de 32 bits del sistem universal de antena tracker con rotación contínua de 360º para drones. Este proyecto está desarrollado y mantenido por los miembros de la [comunidad española de FPV](http://www.aeromodelismovirtual.com/showthread.php?t=34530).
+Ésta es la versión de 32 bits del firmware para el sistema universal de antena tracker con rotación contínua de 360º para drones. Este proyecto está desarrollado y mantenido por los miembros de la [comunidad española de FPV](http://www.aeromodelismovirtual.com/showthread.php?t=34530).
 
 Por favor, te rogamos que leas con atención toda la información que suministramos, así como la de los componentes que utilices, para abordar con éxito el montaje, instalación y configuración de tu antena tracker, de lo contrario los dispositivos y elementos electrónicos y/o mecánicos podrían sufrir graves daños. También te pedimos que hagas un uso de tu antena tracker responsable y dentro de la legalidad vigente.
 
